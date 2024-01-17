@@ -1,12 +1,48 @@
+body{
+    margin-top: 50px;
+}
 
-/* 
+.todolist h1 {
+    text-align: center;
+    margin-bottom: 30px;
+}
 
-    You can write your own styles here...
+ul {
+    margin-bottom: 5px;
+    
+}
+
+li {
+    text-align: center;
+    list-style: none;
+    
+}
+
+.contador {
+    padding-left: 40px;
+    padding-top: 20px;
+    text-align: start;
+}
+
+.enterText {
+    justify-content: center;  
+  text-overflow: ellipsis;
+}
+
+
+#text {
+    width: 300px
+}
+
+
+#btn {
+    margin-left: 25px;
+}
+
+#trash {
+    margin-left: 5px;
+    border: none;
+    background: none;
     
     
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
-
-*/
+}
